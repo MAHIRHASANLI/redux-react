@@ -1,0 +1,65 @@
+nav .nav {
+  display: flex;
+  justify-content: space-around;
+  align-items: center;
+  background-color: blue;
+  color: white;
+}
+
+.basket-icons {
+  position: relative;
+}
+
+.basket-icons svg {
+  position: absolute;
+  bottom: 10px;
+  right: 20px;
+}
+
+.navState {
+  background-color: white;
+  color: black;
+  width: 20px;
+  text-align: center;
+  border-radius: 50%;
+}
+
+.courses {
+  text-align: center;
+}
+
+.courseItems img {
+  width: 50%;
+  height: 400px;
+}
+
+.courseItems {
+  display: flex;
+  justify-content: space-around;
+  padding-top: 50px;
+}
+
+.itemsRight {
+  text-align: right;
+}
+
+.itemsCount button {
+  border: none;
+  background: transparent;
+  font-size: 25px;
+  cursor: pointer;
+}
+
+.deleteBtn {
+  padding: 5px 10px;
+  border-radius: 10px;
+  background-color: red;
+  color: white;
+  font-size: 16px;
+  border: none;
+  cursor: pointer;
+}
+
+footer {
+  padding: 50px 0;
+}
